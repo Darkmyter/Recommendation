@@ -111,26 +111,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\main.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\Matrix2D.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\MatrixMap.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\MatrixVector.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\Movie.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\Rating.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\Similarity.cpp" />
-    <ClCompile Include="..\..\..\..\..\Desktop\recommendersystem\User.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\Algorithm.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\CoFilterAlgorithm.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\Matrix.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\Matrix2D.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\MatrixMap.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\MatrixVector.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\Movie.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\Rating.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\Similarity.h" />
-    <ClInclude Include="..\..\..\..\..\Desktop\recommendersystem\User.h" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
