@@ -111,10 +111,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Matrix2D.cpp" />
+    <ClCompile Include="MatrixMap.cpp" />
+    <ClCompile Include="MatrixVector.cpp" />
+    <ClCompile Include="Movie.cpp" />
+    <ClCompile Include="Rating.cpp" />
+    <ClCompile Include="Similarity.cpp" />
     <ClCompile Include="Source.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Algorithm.h" />
+    <ClInclude Include="CoFilterAlgorithm.h" />
     <ClInclude Include="Header.h" />
+    <ClInclude Include="Matrix.h" />
+    <ClInclude Include="Matrix2D.h" />
+    <ClInclude Include="MatrixMap.h" />
+    <ClInclude Include="MatrixVector.h" />
+    <ClInclude Include="Movie.h" />
+    <ClInclude Include="Rating.h" />
+    <ClInclude Include="Similarity.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
